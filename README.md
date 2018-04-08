@@ -1,2 +1,3 @@
 # date.js
-Date.js - simple JavaScript date and time functions
+
+## Simple JavaScript date functions
