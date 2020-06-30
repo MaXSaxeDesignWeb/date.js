@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "FindStarlink",
+	"description": "FindStarlink is a one click Chromium Extension to access FindStarlink.",
+	"version": "1.00",
+	"permissions": ["alarms", "activeTab", "tabs", "bookmarks", "declarativeWebRequest", "*://*/*"],
+	"options_page": "options.html",
+	"icons": {
+		 "400": "assets/logos/favicon.png"
+	},
+	"browser_action": {
+
+	},
+	"background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
